@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "AlphaBMP"                               # 包名（在 PyPI 上唯一）
+version = "0.1.0"                                   # 符合 PEP 440 的版本号
+description = "A short description"                 # 简短说明
+# 以下可选字段
+readme = "README.md"   
+
+
+[tool.setuptools.packages.find]
+where = ["src"] # 告诉 setuptools 去 src 目录下找包
+
