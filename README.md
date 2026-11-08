@@ -36,3 +36,15 @@
 │       └── utils.py                # 辅助包
 └── README.md               # 项目说明
 ```
+## 安装bmp工具包
+### 方式一：github
+```bash
+git clone https://github.com/zhaoy2020/Microbiome-papers
+cd Microbiome-papers
+pip install .
+# pip install -e . # 开发者模式
+```
+### 方式二：PyPi
+```bash
+pip install alphabmp
+```
